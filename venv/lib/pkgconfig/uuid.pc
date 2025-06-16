@@ -1,0 +1,11 @@
+prefix=/workspaces/Python-PF/venv
+exec_prefix=/workspaces/Python-PF/venv
+libdir=/workspaces/Python-PF/venv/lib
+includedir=/workspaces/Python-PF/venv/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid
