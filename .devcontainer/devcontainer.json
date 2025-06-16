@@ -1,0 +1,13 @@
+{
+    "name": "My CodeSpace with Miniconda",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "postCreateCommand": "conda init bash && source ~/.bashrc",
+    "extensions": [
+        "ms-python.python"
+    ]
+}
